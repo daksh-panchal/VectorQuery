@@ -1,12 +1,12 @@
 # VectorQuery
 
-An intelligent retrieval-augmented generation (RAG) system that combines vector embeddings with large language models to provide accurate, context-aware responses to user queries. VectorQuery leverages Pinecone for vector storage, LangChain for orchestration, and OpenAI's GPT-4 for natural language processing.
+An intelligent retrieval-augmented generation (RAG) system that combines vector embeddings with large language models to provide accurate, context-aware responses to user queries. VectorQuery leverages Pinecone for vector storage, LangChain for RAG workflow, and OpenAI's GPT-4 for natural language processing.
 
 ## Overview
 
 VectorQuery is a modern AI-powered chatbot that understands documents through semantic search. Instead of keyword matching, it uses vector embeddings to find the most relevant information from the knowledge base and generates coherent responses using a large language model. This approach significantly improves answer quality and reduces hallucinations.
 
-**Current Domain:** Thermodynamics (easily customizable to any domain)
+**Current Domain:** Thermodynamics (Easily customizable to any domain of your choice.)
 
 ## Key Features
 
@@ -172,11 +172,11 @@ retriever = docsearch.as_retriever(
 
 ## Future Enhancements
 
-- [ ] Support for multiple document types (Word, Excel, Web pages)
-- [ ] User feedback mechanism for continuous improvement
-- [ ] Chat history and session management
-- [ ] Multi-user authentication
-- [ ] Advanced filtering and metadata-based retrieval
+- Support for multiple document types (Word, Excel, Web pages)
+- User feedback mechanism for continuous improvement
+- Chat history and session management
+- Multi-user authentication
+- Advanced filtering and metadata-based retrieval
 
 ## License
 
@@ -190,7 +190,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For issues, questions, or suggestions, please open an [GitHub Issue](https://github.com/yourusername/VectorQuery/issues).
+For issues, questions, or suggestions, please open a [GitHub Issue](https://github.com/yourusername/VectorQuery/issues).
 
 ---
 
